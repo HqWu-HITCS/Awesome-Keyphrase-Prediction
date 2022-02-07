@@ -1,8 +1,7 @@
-# Keyphrase-Prediction
+# Keyphrase-Prediction-Paper
 
-This repository is to collect keyphrase prediction related resources.
+This repository is to collect keyphrase prediction paper
 
-## Paper
 
 ● keyphrase extraction
 
