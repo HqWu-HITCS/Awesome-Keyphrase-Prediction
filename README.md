@@ -22,8 +22,7 @@
 
 	○ Basic structure:
 		■ Deep Keyphrase Generation (ACL17)
-		■ One Size Does Not Fit All: Generating and Evaluating Variable Number
-of Keyphrases (ACL20)
+		■ One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases (ACL20)
 
 	○ Enhancing model by more representation/information/Constraints
 		■ Keyphrase Generation with Correlation Constraints (EMNLP18)
