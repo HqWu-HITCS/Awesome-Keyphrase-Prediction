@@ -1,4 +1,8 @@
-# Keyphrase-Prediction-Paper
+# Keyphrase-Prediction
+
+This repository is to collect keyphrase prediction related resources.
+
+## Paper
 
 ● keyphrase extraction
 
@@ -20,7 +24,7 @@
    
 ● keyphrase generation
 
-	○ Basic structure:
+	○ Basic Seq2Seq structure:
 		■ Deep Keyphrase Generation (ACL17)
 		■ One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases (ACL20)
 
@@ -29,6 +33,8 @@
 		■ Incorporating Linguistic Constraints intoKeyphrase Generation (ACL19)
 		■ Title-Guided Encoding for Keyphrase Generation (AAAI19)
 		■ Topic-Aware Neural Keyphrase Generation for Social Media Language (ACL19)
+		■ SenSeNet: Neural Keyphrase Generation with Document Structure
+		■ Structure-Augmented Keyphrase Generation (EMNLP21)
 
 	○ Training and decoding
 		■ Semi-Supervised Learning for Neural Keyphrase Generation (EMNLP18)
@@ -50,8 +56,15 @@
 		■ Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction (EMNLP20)
 		■ Cross-Media Keyphrase Prediction: A Unified Framework with Multi-Modality Multi-Head Attention and Image Wordings (EMNLP20)
 
-	○ Otherwork for keyphrase generation
+	○  Pre-training for keyphrase generation
+		■ Learning Rich Representation of Keyphrases from Text
+
+	○  GCN for keyphrase generation
 		■ DivGraphPointer: A Graph Pointer Network for Extracting Diverse Keyphrases (SIGIR19)
+		■ Heterogeneous Graph Neural Networks for Keyphrase Generation (EMNLP21)
+
+
+	○ Otherwork for keyphrase generation
 		■ Keyphrase Generation: A Text Summarization Struggle (NAACL19)
 		■ A Preliminary Exploration of GANs for Keyphrase Generation (EMNLP20)
 		■ An Empirical Study on Neural Keyphrase Generation (NAACL21)
