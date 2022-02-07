@@ -22,6 +22,8 @@
 
 	○ Basic structure:
 		■ Deep Keyphrase Generation (ACL17)
+		■ One Size Does Not Fit All: Generating and Evaluating Variable Number
+of Keyphrases (ACL20)
 
 	○ Enhancing model by more representation/information/Constraints
 		■ Keyphrase Generation with Correlation Constraints (EMNLP18)
@@ -34,14 +36,14 @@
 		■ Neural Keyphrase Generation via Reinforcement Learningwith Adaptive Rewards (ACL19)
 		■ Exclusive Hierarchical Decoding for Deep Keyphrase Generation (ACL20)
 		■ Generating and Evaluating Variable Number of Keyphrases (ACL20)
-    		■ Adaptive Beam Search Decoding for Discrete Keyphrase Generation (AAAI20)
-    		■ ONE2SET: Generating Diverse Keyphrases as a Set (ACL21)
+		■ Adaptive Beam Search Decoding for Discrete Keyphrase Generation (AAAI20)
+		■ ONE2SET: Generating Diverse Keyphrases as a Set (ACL21)
    		■ Keyphrase Generation with Fine-Grained Evaluation-Guided Reinforcement Learning(EMNLP21)
 
 	○  Jointly extractive and a generative for keyphrase
 		■ An Integrated Approach for KG via Exploring the Power of Retrieval and Extraction (NAACL19)
 		■ Keyphrase Prediction With Pre-trained LanguageModel
-    		■ SGG: Learning to Select, Guide, and Generate for Keyphrase Generation (NAACL21)
+		■ SGG: Learning to Select, Guide, and Generate for Keyphrase Generation (NAACL21)
 		■ Select, Extract and Generate: Neural Keyphrase Generation with Layer-wise Coverage Attention (ACL21)
 		■ UniKeyphrase: A Unified Extraction and Generation Framework for Keyphrase Prediction (ACL21-findings)
 
@@ -52,5 +54,5 @@
 	○ Otherwork for keyphrase generation
 		■ DivGraphPointer: A Graph Pointer Network for Extracting Diverse Keyphrases (SIGIR19)
 		■ Keyphrase Generation: A Text Summarization Struggle (NAACL19)
-    		■ A Preliminary Exploration of GANs for Keyphrase Generation (EMNLP20)
-    		■ An Empirical Study on Neural Keyphrase Generation (NAACL21)
+		■ A Preliminary Exploration of GANs for Keyphrase Generation (EMNLP20)
+		■ An Empirical Study on Neural Keyphrase Generation (NAACL21)
