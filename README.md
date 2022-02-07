@@ -1,6 +1,6 @@
 # Keyphrase-Prediction-Paper
 
-This repository is to collect keyphrase prediction paper
+This repository is to collect keyphrase prediction paper.
 
 
 ● keyphrase extraction
@@ -12,6 +12,8 @@ This repository is to collect keyphrase prediction paper
 		■ Unsupervised Keyphrase Extraction with Multipartite Graphs(NAACL18)
 		■ Unsupervised Keyphrase Extraction by Jointly Modeling Local and Global Context(EMNLP21)
 		■ AttentionRank: Unsupervised Keyphrase Extraction using Self and Cross Attentions(EMNLP21)
+		■ MDERank: A Masked Document Embedding Rank Approach for Unsupervised Keyphrase Extraction
+		■ Keyphrase Extraction Using Neighborhood Knowledge Based on Word Embeddings
 
 
 	○ Supervised extraction methods
@@ -19,6 +21,10 @@ This repository is to collect keyphrase prediction paper
 		■ Keyphrase Extraction with Span-based FeatureRepresentations
 		■ Joint Keyphrase Chunking and SalienceRanking with BERT
 		■ Importance Estimation from Multiple Perspectives for Keyphrase Extraction(EMNLP21)
+		■ Enhancing Keyphrase Extraction from Academic Articles with their Reference Information
+	
+	○ Multi-Document Keyphrase Extraction
+		■ Multi-Document Keyphrase Extraction: A Literature Review and the First Dataset
 
    
 ● keyphrase generation
@@ -34,6 +40,7 @@ This repository is to collect keyphrase prediction paper
 		■ Topic-Aware Neural Keyphrase Generation for Social Media Language (ACL19)
 		■ SenSeNet: Neural Keyphrase Generation with Document Structure
 		■ Structure-Augmented Keyphrase Generation (EMNLP21)
+		■ Keyphrase Generation Beyond the Boundaries of Title and Abstract
 
 	○ Training and decoding
 		■ Semi-Supervised Learning for Neural Keyphrase Generation (EMNLP18)
@@ -55,15 +62,19 @@ This repository is to collect keyphrase prediction paper
 		■ Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction (EMNLP20)
 		■ Cross-Media Keyphrase Prediction: A Unified Framework with Multi-Modality Multi-Head Attention and Image Wordings (EMNLP20)
 
-	○  Pre-training for keyphrase generation
+	○  Pre-training model for keyphrase generation
 		■ Learning Rich Representation of Keyphrases from Text
+		■ Applying a Generic Sequence-to-Sequence Model for Simple and Effective Keyphrase Generation
 
 	○  GCN for keyphrase generation
 		■ DivGraphPointer: A Graph Pointer Network for Extracting Diverse Keyphrases (SIGIR19)
 		■ Heterogeneous Graph Neural Networks for Keyphrase Generation (EMNLP21)
 
+	○  Application
+		■ Keyphrase Generation for Scientific Document Retrieval (ACL20)
 
 	○ Otherwork for keyphrase generation
 		■ Keyphrase Generation: A Text Summarization Struggle (NAACL19)
 		■ A Preliminary Exploration of GANs for Keyphrase Generation (EMNLP20)
 		■ An Empirical Study on Neural Keyphrase Generation (NAACL21)
+		■ KPDrop: An Approach to Improving Absent Keyphrase Generation
