@@ -50,6 +50,7 @@ This repository is to collect keyphrase prediction paper.
 		■ Adaptive Beam Search Decoding for Discrete Keyphrase Generation (AAAI20)
 		■ ONE2SET: Generating Diverse Keyphrases as a Set (ACL21)
    		■ Keyphrase Generation with Fine-Grained Evaluation-Guided Reinforcement Learning(EMNLP21)
+   		■ Fast and Constrained Absent Keyphrase Generation by Prompt-Based Learning (AAAI2022)
 
 	○  Jointly extractive and a generative for keyphrase
 		■ An Integrated Approach for KG via Exploring the Power of Retrieval and Extraction (NAACL19)
@@ -69,6 +70,9 @@ This repository is to collect keyphrase prediction paper.
 	○  GCN for keyphrase generation
 		■ DivGraphPointer: A Graph Pointer Network for Extracting Diverse Keyphrases (SIGIR19)
 		■ Heterogeneous Graph Neural Networks for Keyphrase Generation (EMNLP21)
+
+	○  Unsupervised keyphrase generation
+		■ Unsupervised Deep Keyphrase Generation
 
 	○  Application
 		■ Keyphrase Generation for Scientific Document Retrieval (ACL20)
