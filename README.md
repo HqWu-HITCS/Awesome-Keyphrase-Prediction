@@ -12,7 +12,7 @@ This repository is to collect keyphrase prediction paper.
 		■ Unsupervised Keyphrase Extraction with Multipartite Graphs(NAACL18)
 		■ Unsupervised Keyphrase Extraction by Jointly Modeling Local and Global Context(EMNLP21)
 		■ AttentionRank: Unsupervised Keyphrase Extraction using Self and Cross Attentions(EMNLP21)
-		■ MDERank: A Masked Document Embedding Rank Approach for Unsupervised Keyphrase Extraction
+		■ MDERank: A Masked Document Embedding Rank Approach for Unsupervised Keyphrase Extraction (ACL22)
 		■ Keyphrase Extraction Using Neighborhood Knowledge Based on Word Embeddings
 
 
@@ -22,6 +22,8 @@ This repository is to collect keyphrase prediction paper.
 		■ Joint Keyphrase Chunking and SalienceRanking with BERT
 		■ Importance Estimation from Multiple Perspectives for Keyphrase Extraction(EMNLP21)
 		■ Enhancing Keyphrase Extraction from Academic Articles with their Reference Information
+		■ Hyperbolic Relevance Matching for Neural Keyphrase Extraction (NAACL22)
+
 	
 	○ Multi-Document Keyphrase Extraction
 		■ Multi-Document Keyphrase Extraction: A Literature Review and the First Dataset
@@ -63,8 +65,11 @@ This repository is to collect keyphrase prediction paper.
 		■ Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction (EMNLP20)
 		■ Cross-Media Keyphrase Prediction: A Unified Framework with Multi-Modality Multi-Head Attention and Image Wordings (EMNLP20)
 
+	○  Multilingual keyphrase generation
+		■ Retrieval-Augmented Multilingual Keyphrase Generation with Retriever-Generator Iterative Training (NAACL22)
+
 	○  Pre-training model for keyphrase generation
-		■ Learning Rich Representation of Keyphrases from Text
+		■ Learning Rich Representation of Keyphrases from Text (NAACL22)
 		■ Applying a Generic Sequence-to-Sequence Model for Simple and Effective Keyphrase Generation
 
 	○  GCN for keyphrase generation
