@@ -3,6 +3,7 @@
 This repository is to collect keyphrase prediction resource.
 
 ● Tutorial 
+
 	○ https://keyphrasification.github.io (ECIR22)
 
 
@@ -94,7 +95,10 @@ This repository is to collect keyphrase prediction resource.
 		■ KPDrop: An Approach to Improving Absent Keyphrase Generation
 
 ● New Dataset
+
 	○ Keyphrase Prediction from Video Transcripts: New Dataset and Directions (COLING222)
+	
 	○ LipKey: A Large-Scale News Dataset for Absent Keyphrases Generation and Abstractive Summarization (COLING222)
+	
 	○ A new dataset for multilingual keyphrase generation (NIPS22)
 
