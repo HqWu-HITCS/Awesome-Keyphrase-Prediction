@@ -1,6 +1,6 @@
-# Keyphrase-Prediction-Paper
+# Keyphrase-Prediction-Resource
 
-This repository is to collect keyphrase prediction resource.
+This repository is to collect keyphrase prediction resource. 
 
 ● Tutorial 
 
