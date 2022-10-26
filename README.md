@@ -1,9 +1,12 @@
 # Keyphrase-Prediction-Paper
 
-This repository is to collect keyphrase prediction paper.
+This repository is to collect keyphrase prediction resource.
+
+● Tutorial 
+	○ https://keyphrasification.github.io (ECIR22)
 
 
-● keyphrase extraction
+● Keyphrase Extraction Paper
 
 	○ Unsupervised ranking
 		■ PositionRank: An Unsupervised Approach to KE (ACL17)
@@ -29,7 +32,7 @@ This repository is to collect keyphrase prediction paper.
 		■ Multi-Document Keyphrase Extraction: A Literature Review and the First Dataset
 
    
-● keyphrase generation
+● Keyphrase Generation Paper
 
 	○ Basic Seq2Seq structure:
 		■ Deep Keyphrase Generation (ACL17)
@@ -43,6 +46,8 @@ This repository is to collect keyphrase prediction paper.
 		■ SenSeNet: Neural Keyphrase Generation with Document Structure
 		■ Structure-Augmented Keyphrase Generation (EMNLP21)
 		■ Keyphrase Generation Beyond the Boundaries of Title and Abstract
+ 		■ Automatic Keyphrase Generation by Incorporating Dual Copy Mechanisms in Sequence-to-Sequence Learning(COLING22)
+
 
 	○ Training and decoding
 		■ Semi-Supervised Learning for Neural Keyphrase Generation (EMNLP18)
@@ -87,3 +92,9 @@ This repository is to collect keyphrase prediction paper.
 		■ A Preliminary Exploration of GANs for Keyphrase Generation (EMNLP20)
 		■ An Empirical Study on Neural Keyphrase Generation (NAACL21)
 		■ KPDrop: An Approach to Improving Absent Keyphrase Generation
+
+● New Dataset
+	○ Keyphrase Prediction from Video Transcripts: New Dataset and Directions (COLING222)
+	○ LipKey: A Large-Scale News Dataset for Absent Keyphrases Generation and Abstractive Summarization (COLING222)
+	○ A new dataset for multilingual keyphrase generation (NIPS22)
+
