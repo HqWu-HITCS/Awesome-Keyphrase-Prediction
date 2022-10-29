@@ -5,7 +5,6 @@ This repository is to collect keyphrase prediction resource.
 
 We strongly encourage the researchers that want to promote their fantastic work to the keyphrase prediction community to make pull request to update their paper's information!
 
-- [Keyphrase- Prediction-Resource](#keyphrase--prediction-resource)
 - [Tutorial](#tutorial)
 - [Keyphrase Extraction Paper](#keyphrase-extraction-paper)
   - [Unsupervised Ranking](#unsupervised-ranking)
@@ -34,7 +33,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 
 
 
-# Keyphrase Extraction Paper
+# Keyphrase Extraction
 
 ## Unsupervised Ranking
 
@@ -65,7 +64,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Multi-Document Keyphrase Extraction: A Literature Review and the First Dataset (Arxiv21)](https://arxiv.org/abs/2110.01073)
 
    
-# Keyphrase Generation Paper
+# Keyphrase Generation
 
 
 ## Model Structure
