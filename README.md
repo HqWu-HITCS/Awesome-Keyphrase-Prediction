@@ -6,37 +6,37 @@ This repository is to collect keyphrase prediction resource.
 We strongly encourage the researchers that want to promote their fantastic work to the keyphrase prediction community to make pull request to update their paper's information!
 
 - [Keyphrase- Prediction-Resource](#keyphrase--prediction-resource)
-  - [Tutorial](#tutorial)
-  - [Keyphrase Extraction Paper](#keyphrase-extraction-paper)
-    - [Unsupervised ranking](#unsupervised-ranking)
-    - [Supervised extraction methods](#supervised-extraction-methods)
-    - [Multi-Document keyphrase extraction](#multi--document-keyphrase-extraction)
-  - [Keyphrase Generation Paper](#keyphrase-generation-paper)
-    - [Generation paradigm](#generation-paradigm)
-    - [Model structure](#model-structure)
-    - [Enhancing model by more information/constraints](#enhancing-model-by-more-informationconstraints)
-    - [Training and decoding](#training-and-decoding)
-    - [Absent keyphrase generation](#absent-keyphrase-generation)
-    - [Jointly extraction and generation](#jointly-extraction-and-generation)
-    - [Multimodal keyphrase generation](#multimodal-keyphrase-generation)
-    - [Multilingual keyphrase generation](#multilingual-keyphrase-generation)
-    - [Pre-training for keyphrase generation](#pre-training-model-for-keyphrase-generation)
-    - [GNN for keyphrase generation](#gnn-for-keyphrase-generation)
-    - [Unsupervised keyphrase generation](#unsupervised-keyphrase-generation)
-    - [Domain adaption & Low resource](#domain-adaption--low-resource)
-    - [Application](#application)
-    - [Otherwork for keyphrase generation](#otherwork-for-keyphrase-generation)
-  - [New Dataset](#new-dataset)
+- [Tutorial](#tutorial)
+- [Keyphrase Extraction Paper](#keyphrase-extraction-paper)
+  - [Unsupervised Ranking](#unsupervised-ranking)
+  - [Supervised Extraction](#supervised-extraction)
+  - [Multi-Document Extraction](#multi-document-extraction)
+- [Keyphrase Generation Paper](#keyphrase-generation-paper)
+  - [Model Structure](#model-structure)
 
-## Tutorial 
+  - [Training and Decoding](#training-and-decoding)
+  - [Absent Keyphrase Generation](#absent-keyphrase-generation)
+  - [Multimodal Keyphrase Generation](#multimodal-keyphrase-generation)
+  - [Multilingual Keyphrase Generation](#multilingual-keyphrase-generation)
+  - [Pre-Training for Generation](#pre-training-for-generation)
+  - [Unsupervised Generation](#unsupervised-generation)
+  - [Domain Sdaption & Low Resource](#domain-sdaption--low-resource)
+  - [Application of Keyphrase Generation](#application-of-keyphrase-generation)
+  - [Empirical Study for Keyphrase Generation](#empirical-study-for-keyphrase-generation)
+  - [Other Struggle for Keyphrase Generation](#other-struggle-for-keyphrase-generation)
+- [Jointly Extraction and Generation](#jointly-extraction-and-generation)
+- [New Dataset](#new-dataset)
+
+
+# Tutorial 
 
 -  [A Tutorial on Keyphrasification (ECIR22)](https://keyphrasification.github.io/)
 
 
 
-## Keyphrase Extraction Paper
+# Keyphrase Extraction Paper
 
-### Unsupervised ranking
+## Unsupervised Ranking
 
 - [PositionRank: An Unsupervised Approach to KE (ACL17)](https://aclanthology.org/P17-1102)
 - [Automatic Ranked KE from Scientific Articles using Phrase Embeddings(NAACL18)](https://aclanthology.org/N18-2100)
@@ -50,7 +50,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 
 
 
-### Supervised extraction methods
+## Supervised Extraction
 
 - [Open Domain Web Keyphrase Extraction Beyond Language Modeling (EMNLP19)](https://aclanthology.org/D19-1521)
 - [A Joint Learning Approach based on Self-Distillation for Keyphrase Extraction from Scientific Documents (COLING20)](https://aclanthology.org/2020.coling-main.56/)
@@ -60,12 +60,15 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Hyperbolic Relevance Matching for Neural Keyphrase Extraction (NAACL22)](https://aclanthology.org/2022.naacl-main.419)
 
 	
-### Multi- Document Keyphrase Extraction
+## Multi-Document Extraction
 
 - [Multi-Document Keyphrase Extraction: A Literature Review and the First Dataset (Arxiv21)](https://arxiv.org/abs/2110.01073)
 
    
-## Keyphrase Generation Paper
+# Keyphrase Generation Paper
+
+
+## Model Structure
 
 ### Generation paradigm
 
@@ -73,11 +76,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [One2Seq: One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases (ACL20)](https://aclanthology.org/2020.acl-main.710.pdf)
 - [One2Set: Generating Diverse Keyphrases as a Set (ACL21)](https://aclanthology.org/2021.acl-long.354)
 
-### Model structure
-
-- [Automatic Keyphrase Generation by Incorporating Dual Copy Mechanisms in Sequence-to-Sequence Learning (COLING22)](https://aclanthology.org/2022.coling-1.204)
-
-### Enhancing model by more information/Constraints
+### Incorporating additional information or constraints
 
 - [Keyphrase Generation with Correlation Constraints (EMNLP18)](https://aclanthology.org/D18-1439)
 - [Incorporating Linguistic Constraints intoKeyphrase Generation (ACL19)](https://aclanthology.org/P19-1515)
@@ -87,7 +86,14 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Structure-Augmented Keyphrase Generation (EMNLP21)](https://aclanthology.org/2021.emnlp-main.209.pdf)
 - [Keyphrase Generation Beyond the Boundaries of Title and Abstract (Arxiv21)](https://arxiv.org/abs/2112.06776)
 
-### Training and decoding
+### Enhancing Seq2Seq model by GNN & dual CopyNet
+
+- [DivGraphPointer: A Graph Pointer Network for Extracting Diverse Keyphrases (SIGIR19)](https://arxiv.org/abs/1905.07689)
+- [Heterogeneous Graph Neural Networks for Keyphrase Generation (EMNLP21)](https://aclanthology.org/2021.emnlp-main.213/)
+
+- [Automatic Keyphrase Generation by Incorporating Dual Copy Mechanisms in Sequence-to-Sequence Learning (COLING22)](https://aclanthology.org/2022.coling-1.204)
+
+## Training and Decoding
 
 - [Semi-Supervised Learning for Neural Keyphrase Generation (EMNLP18)](https://aclanthology.org/D18-1447)
 - [Neural Keyphrase Generation via Reinforcement Learningwith Adaptive Rewards (ACL19)](https://aclanthology.org/P19-1208.pdf)
@@ -96,11 +102,49 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Diverse Keyphrase Generation with Neural Unlikelihood Training (COLING20)](https://aclanthology.org/2020.coling-main.462/)
 - [Keyphrase Generation with Fine-Grained Evaluation-Guided Reinforcement Learning (EMNLP21)](https://aclanthology.org/2021.findings-emnlp.45.pdf)
 
-### Absent keyphrase generation
+## Absent Keyphrase Generation
 - [Fast and Constrained Absent Keyphrase Generation by Prompt-Based Learning (AAAI2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21402)
 - [KPDrop: An Approach to Improving Absent Keyphrase Generation (Arxiv21)](https://arxiv.org/abs/2112.01476)
 
-### Jointly extraction and generation
+
+## Multimodal Keyphrase Generation
+
+- [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction (EMNLP20)](https://aclanthology.org/2020.emnlp-main.140/)
+- [Cross-Media Keyphrase Prediction: A Unified Framework with Multi-Modality Multi-Head Attention and Image Wordings (EMNLP20)](https://aclanthology.org/2020.emnlp-main.268/)
+
+## Multilingual Keyphrase Generation
+
+- [Retrieval-Augmented Multilingual Keyphrase Generation with Retriever-Generator Iterative Training (NAACL22)](https://arxiv.org/abs/2205.10471)
+
+## Pre-Training for Generation
+
+- [Learning Rich Representation of Keyphrases from Text (NAACL22)](https://aclanthology.org/2022.findings-naacl.67/)
+- [Applying a Generic Sequence-to-Sequence Model for Simple and Effective Keyphrase Generation (Arxiv22)](https://arxiv.org/abs/2201.05302)
+
+## Unsupervised Generation
+
+- [Unsupervised Deep Keyphrase Generation (AAAI22)](https://ojs.aaai.org/index.php/AAAI/article/view/21381)
+
+## Domain Sdaption & Low Resource
+
+- [General-to-Specific Transfer Labeling for Domain Adaptable Keyphrase Generation (Arxiv22)](https://arxiv.org/abs/2208.09606)
+- [Representation Learning for Resource-Constrained Keyphrase Generation (EMNLP22)](https://arxiv.org/abs/2203.08118)
+
+## Application of Keyphrase Generation
+     
+- [Keyphrase Generation for Scientific Document Retrieval (ACL20)](https://aclanthology.org/2020.acl-main.105/)
+- [Redefining Absent Keyphrases and their Effect on Retrieval Effectiveness (NAACL21)](https://aclanthology.org/2021.naacl-main.330.pdf)
+
+## Empirical Study for Keyphrase Generation
+
+- [An Empirical Study on Neural Keyphrase Generation (NAACL21)](https://aclanthology.org/2021.naacl-main.396.pdf)
+
+## Other Struggle for Keyphrase Generation
+
+- [Keyphrase Generation: A Text Summarization Struggle (NAACL19)](https://aclanthology.org/N19-1070.pdf)
+- [A Preliminary Exploration of GANs for Keyphrase Generation (EMNLP20)](https://aclanthology.org/2020.emnlp-main.645/)
+
+# Jointly Extraction and Generation
 
 - [An Integrated Approach for KG via Exploring the Power of Retrieval and Extraction (NAACL19)](https://aclanthology.org/N19-1292.pdf)
 - [Addressing Extraction and Generation Separately: Keyphrase Prediction With Pre-Trained Language Models (TASLP21)](https://ieeexplore.ieee.org/abstract/document/9576585/)
@@ -108,46 +152,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Select, Extract and Generate: Neural Keyphrase Generation with Layer-wise Coverage Attention (ACL21)](https://aclanthology.org/2021.acl-long.111/)
 - [UniKeyphrase: A Unified Extraction and Generation Framework for Keyphrase Prediction (ACL21)](https://arxiv.org/abs/2106.04847)
 
-### Multimodal keyphrase generation
-
-- [Incorporating Multimodal Information in Open-Domain Web Keyphrase Extraction (EMNLP20)](https://aclanthology.org/2020.emnlp-main.140/)
-- [Cross-Media Keyphrase Prediction: A Unified Framework with Multi-Modality Multi-Head Attention and Image Wordings (EMNLP20)](https://aclanthology.org/2020.emnlp-main.268/)
-
-### Multilingual keyphrase generation
-
-- [Retrieval-Augmented Multilingual Keyphrase Generation with Retriever-Generator Iterative Training (NAACL22)](https://arxiv.org/abs/2205.10471)
-
-### Pre-training model for keyphrase generation
-
-- [Learning Rich Representation of Keyphrases from Text (NAACL22)](https://aclanthology.org/2022.findings-naacl.67/)
-- [Applying a Generic Sequence-to-Sequence Model for Simple and Effective Keyphrase Generation (Arxiv22)](https://arxiv.org/abs/2201.05302)
-
-### GNN for keyphrase generation
-
-- [DivGraphPointer: A Graph Pointer Network for Extracting Diverse Keyphrases (SIGIR19)](https://arxiv.org/abs/1905.07689)
-- [Heterogeneous Graph Neural Networks for Keyphrase Generation (EMNLP21)](https://aclanthology.org/2021.emnlp-main.213/)
-
-### Unsupervised keyphrase generation
-
-- [Unsupervised Deep Keyphrase Generation (AAAI22)](https://ojs.aaai.org/index.php/AAAI/article/view/21381)
-
-### Domain adaption & Low resource
-
-- [General-to-Specific Transfer Labeling for Domain Adaptable Keyphrase Generation (Arxiv22)](https://arxiv.org/abs/2208.09606)
-- [Representation Learning for Resource-Constrained Keyphrase Generation (EMNLP22)](https://arxiv.org/abs/2203.08118)
-
-### Application
-     
-- [Keyphrase Generation for Scientific Document Retrieval (ACL20)](https://aclanthology.org/2020.acl-main.105/)
-- [Redefining Absent Keyphrases and their Effect on Retrieval Effectiveness (NAACL21)](https://aclanthology.org/2021.naacl-main.330.pdf)
-
-### Otherwork for keyphrase generation
-
-- [Keyphrase Generation: A Text Summarization Struggle (NAACL19)](https://aclanthology.org/N19-1070.pdf)
-- [A Preliminary Exploration of GANs for Keyphrase Generation (EMNLP20)](https://aclanthology.org/2020.emnlp-main.645/)
-- [An Empirical Study on Neural Keyphrase Generation (NAACL21)](https://aclanthology.org/2021.naacl-main.396.pdf)
-
-## New Dataset
+# New Dataset
 
 - [Keyphrase Prediction from Video Transcripts: New Dataset and Directions (COLING222)](https://aclanthology.org/2022.coling-1.624.pdf)
 	
