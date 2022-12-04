@@ -71,9 +71,18 @@ We strongly encourage the researchers that want to promote their fantastic work 
 
 ### Generation paradigm
 
-- [One2One: Deep Keyphrase Generation (ACL17)](https://aclanthology.org/P17-1054)
-- [One2Seq: One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases (ACL20)](https://aclanthology.org/2020.acl-main.710.pdf)
+#### One2One
+
+- [Deep Keyphrase Generation (ACL17)](https://aclanthology.org/P17-1054)
+
+#### One2Seq
+
+- [One Size Does Not Fit All: Generating and Evaluating Variable Number of Keyphrases (ACL20)](https://aclanthology.org/2020.acl-main.710.pdf)
+
+#### One2Sst
+
 - [One2Set: Generating Diverse Keyphrases as a Set (ACL21)](https://aclanthology.org/2021.acl-long.354)
+- [WR-ONE2SET: Towards Well-Calibrated Keyphrase Generation (EMNLP22)](https://arxiv.org/pdf/2211.06862.pdf)
 
 ### Incorporating additional information or constraints
 
