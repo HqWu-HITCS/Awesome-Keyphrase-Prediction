@@ -167,3 +167,5 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [LipKey: A Large-Scale News Dataset for Absent Keyphrases Generation and Abstractive Summarization (COLING222)](https://aclanthology.org/2022.coling-1.303/)
 	
 - [A new dataset for multilingual keyphrase generation (NIPS22)](https://openreview.net/pdf?id=47qVX2pa-2)
+
+- [A Large-Scale Dataset for Biomedical Keyphrase Generation (LOUHI 2022)](https://arxiv.org/pdf/2211.12124.pdf)
