@@ -109,6 +109,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Adaptive Beam Search Decoding for Discrete Keyphrase Generation (AAAI20)](https://ojs.aaai.org/index.php/AAAI/article/view/17546)
 - [Diverse Keyphrase Generation with Neural Unlikelihood Training (COLING20)](https://aclanthology.org/2020.coling-main.462/)
 - [Keyphrase Generation with Fine-Grained Evaluation-Guided Reinforcement Learning (EMNLP21)](https://aclanthology.org/2021.findings-emnlp.45.pdf)
+- [Keyphrase Generation via Soft and Hard Semantic Corrections (EMNLP22)](https://aclanthology.org/2022.emnlp-main.529.pdf)
 
 ## Absent Keyphrase Generation
 - [Fast and Constrained Absent Keyphrase Generation by Prompt-Based Learning (AAAI2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21402)
