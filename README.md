@@ -5,26 +5,34 @@ This repository is to collect keyphrase prediction resource.
 
 We strongly encourage the researchers that want to promote their fantastic work to the keyphrase prediction community to make pull request to update their paper's information!
 
-- [Tutorial](#tutorial)
-- [Keyphrase Extraction Paper](#keyphrase-extraction-paper)
+
+- [Keyphrase-Prediction-Resource](#keyphrase-prediction-resource)
+- [Tutorial ](#tutorial)
+- [Keyphrase Extraction](#keyphrase-extraction)
   - [Unsupervised Ranking](#unsupervised-ranking)
   - [Supervised Extraction](#supervised-extraction)
   - [Multi-Document Extraction](#multi-document-extraction)
-- [Keyphrase Generation Paper](#keyphrase-generation-paper)
+- [Keyphrase Generation](#keyphrase-generation)
   - [Model Structure](#model-structure)
-
+    - [Generation paradigm](#generation-paradigm)
+      - [One2One](#one2one)
+      - [One2Seq](#one2seq)
+      - [One2Sst](#one2sst)
+    - [Incorporating additional information or constraints](#incorporating-additional-information-or-constraints)
+    - [Enhancing Seq2Seq model by GNN \& dual CopyNet](#enhancing-seq2seq-model-by-gnn--dual-copynet)
   - [Training and Decoding](#training-and-decoding)
   - [Absent Keyphrase Generation](#absent-keyphrase-generation)
   - [Multimodal Keyphrase Generation](#multimodal-keyphrase-generation)
   - [Multilingual Keyphrase Generation](#multilingual-keyphrase-generation)
   - [Pre-Training for Generation](#pre-training-for-generation)
   - [Unsupervised Generation](#unsupervised-generation)
-  - [Domain Sdaption & Low Resource](#domain-sdaption--low-resource)
+  - [Domain Sdaption \& Low Resource](#domain-sdaption--low-resource)
   - [Application of Keyphrase Generation](#application-of-keyphrase-generation)
   - [Empirical Study for Keyphrase Generation](#empirical-study-for-keyphrase-generation)
   - [Other Struggle for Keyphrase Generation](#other-struggle-for-keyphrase-generation)
 - [Jointly Extraction and Generation](#jointly-extraction-and-generation)
 - [New Dataset](#new-dataset)
+- [New Evaluation](#new-evaluation)
 
 
 # Tutorial 
@@ -130,6 +138,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Learning Rich Representation of Keyphrases from Text (NAACL22)](https://aclanthology.org/2022.findings-naacl.67/)
 - [Applying a Generic Sequence-to-Sequence Model for Simple and Effective Keyphrase Generation (Arxiv22)](https://arxiv.org/abs/2201.05302)
 
+
 ## Unsupervised Generation
 
 - [Unsupervised Deep Keyphrase Generation (AAAI22)](https://ojs.aaai.org/index.php/AAAI/article/view/21381)
@@ -147,6 +156,8 @@ We strongly encourage the researchers that want to promote their fantastic work 
 ## Empirical Study for Keyphrase Generation
 
 - [An Empirical Study on Neural Keyphrase Generation (NAACL21)](https://aclanthology.org/2021.naacl-main.396.pdf)
+- [Pre-trained Language Models for Keyphrase Generation: A Thorough Empirical Study (Arxiv22)](https://arxiv.org/pdf/2212.10233.pdf)
+- [Is ChatGPT A Good Keyphrase Generator? A Preliminary Study (Arxiv23)](https://arxiv.org/pdf/2303.13001.pdf)
 
 ## Other Struggle for Keyphrase Generation
 
@@ -163,10 +174,16 @@ We strongly encourage the researchers that want to promote their fantastic work 
 
 # New Dataset
 
-- [Keyphrase Prediction from Video Transcripts: New Dataset and Directions (COLING222)](https://aclanthology.org/2022.coling-1.624.pdf)
+- [Keyphrase Prediction from Video Transcripts: New Dataset and Directions (COLING22)](https://aclanthology.org/2022.coling-1.624.pdf)
 	
-- [LipKey: A Large-Scale News Dataset for Absent Keyphrases Generation and Abstractive Summarization (COLING222)](https://aclanthology.org/2022.coling-1.303/)
+- [LipKey: A Large-Scale News Dataset for Absent Keyphrases Generation and Abstractive Summarization (COLING22)](https://aclanthology.org/2022.coling-1.303/)
 	
 - [A new dataset for multilingual keyphrase generation (NIPS22)](https://openreview.net/pdf?id=47qVX2pa-2)
 
 - [A Large-Scale Dataset for Biomedical Keyphrase Generation (LOUHI 2022)](https://arxiv.org/pdf/2211.12124.pdf)
+
+# New Evaluation
+
+- [KPEval: Towards Fine-grained Semantic-based Evaluation of
+Keyphrase Extraction and Generation Systems (Arxiv23)](https://arxiv.org/pdf/2303.15422.pdf)
+	
