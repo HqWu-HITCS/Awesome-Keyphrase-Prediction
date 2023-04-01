@@ -1,4 +1,4 @@
-Keyphrase-Prediction-Resource
+Awesome-Keyphrase-Prediction
 ======
 
 This repository is to collect keyphrase prediction resource. 
