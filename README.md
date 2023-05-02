@@ -6,8 +6,8 @@ This repository is to collect keyphrase prediction resource.
 We strongly encourage the researchers that want to promote their fantastic work to the keyphrase prediction community to make pull request to update their paper's information!
 
 
-- [Keyphrase-Prediction-Resource](#keyphrase-prediction-resource)
 - [Tutorial ](#tutorial)
+- [Survey](#survey)
 - [Keyphrase Extraction](#keyphrase-extraction)
   - [Unsupervised Ranking](#unsupervised-ranking)
   - [Supervised Extraction](#supervised-extraction)
@@ -33,6 +33,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Jointly Extraction and Generation](#jointly-extraction-and-generation)
 - [New Dataset](#new-dataset)
 - [New Evaluation](#new-evaluation)
+- [Chatgpt for Keyphrase Prediction](#chatgpt-for-keyphrase-prediction)
 
 
 # Tutorial 
@@ -40,6 +41,9 @@ We strongly encourage the researchers that want to promote their fantastic work 
 -  [A Tutorial on Keyphrasification (ECIR22)](https://keyphrasification.github.io/)
 
 
+# Survey
+
+- [From statistical methods to deep learning, automatic keyphrase prediction: A survey](https://www.sciencedirect.com/science/article/pii/S030645732300119X)
 
 # Keyphrase Extraction
 
@@ -157,7 +161,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 
 - [An Empirical Study on Neural Keyphrase Generation (NAACL21)](https://aclanthology.org/2021.naacl-main.396.pdf)
 - [Pre-trained Language Models for Keyphrase Generation: A Thorough Empirical Study (Arxiv22)](https://arxiv.org/pdf/2212.10233.pdf)
-- [Is ChatGPT A Good Keyphrase Generator? A Preliminary Study (Arxiv23)](https://arxiv.org/pdf/2303.13001.pdf)
+
 
 ## Other Struggle for Keyphrase Generation
 
@@ -187,3 +191,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [KPEval: Towards Fine-grained Semantic-based Evaluation of
 Keyphrase Extraction and Generation Systems (Arxiv23)](https://arxiv.org/pdf/2303.15422.pdf)
 	
+# Chatgpt for Keyphrase Prediction
+
+- [Is ChatGPT A Good Keyphrase Generator? A Preliminary Study (Arxiv23)](https://arxiv.org/pdf/2303.13001.pdf)
+- [ChatGPT vs State-of-the-Art Models: A Benchmarking Study in Keyphrase Generation Task (Arxiv23)](https://arxiv.org/pdf/2304.14177.pdf)
