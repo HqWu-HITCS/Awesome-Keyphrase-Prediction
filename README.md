@@ -9,7 +9,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Tutorial ](#tutorial)
 - [Survey](#survey)
 - [Keyphrase Extraction](#keyphrase-extraction)
-  - [Unsupervised Ranking](#unsupervised-ranking)
+  - [Unsupervised Extraction](#unsupervised-extraction)
   - [Supervised Extraction](#supervised-extraction)
   - [Multi-Document Extraction](#multi-document-extraction)
 - [Keyphrase Generation](#keyphrase-generation)
@@ -47,7 +47,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 
 # Keyphrase Extraction
 
-## Unsupervised Ranking
+## Unsupervised Extraction
 
 - [PositionRank: An Unsupervised Approach to KE (ACL17)](https://aclanthology.org/P17-1102)
 - [Automatic Ranked KE from Scientific Articles using Phrase Embeddings(NAACL18)](https://aclanthology.org/N18-2100)
@@ -58,6 +58,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Exploiting Position and Contextual Word Embeddings for Keyphrase Extraction from Scientific Papers (EACL21)](https://aclanthology.org/2021.eacl-main.136/)
 - [Keyphrase Extraction Using Neighborhood Knowledge Based on Word Embeddings (Arxiv21)](https://arxiv.org/abs/2111.07198)
 - [MDERank: A Masked Document Embedding Rank Approach for Unsupervised Keyphrase Extraction (ACL22)](https://aclanthology.org/2022.findings-acl.34.pdf)
+- [PromptRank: Unsupervised Keyphrase Extraction Using Prompt (ACL23)](https://arxiv.org/pdf/2305.04490.pdf)
 
 
 
@@ -142,15 +143,16 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Learning Rich Representation of Keyphrases from Text (NAACL22)](https://aclanthology.org/2022.findings-naacl.67/)
 - [Applying a Generic Sequence-to-Sequence Model for Simple and Effective Keyphrase Generation (Arxiv22)](https://arxiv.org/abs/2201.05302)
 
-
 ## Unsupervised Generation
 
 - [Unsupervised Deep Keyphrase Generation (AAAI22)](https://ojs.aaai.org/index.php/AAAI/article/view/21381)
+- [Unsupervised Open-domain Keyphrase Generation (ACL23)](https://arxiv.org/pdf/2306.10755.pdf)
 
 ## Domain Sdaption & Low Resource
 
 - [General-to-Specific Transfer Labeling for Domain Adaptable Keyphrase Generation (Arxiv22)](https://arxiv.org/abs/2208.09606)
 - [Representation Learning for Resource-Constrained Keyphrase Generation (EMNLP22)](https://arxiv.org/abs/2203.08118)
+- [Data Augmentation for Low-Resource Keyphrase Generation (ACL23)](https://arxiv.org/pdf/2305.17968.pdf)
 
 ## Application of Keyphrase Generation
      
