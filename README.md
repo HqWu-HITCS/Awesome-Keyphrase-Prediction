@@ -59,6 +59,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Keyphrase Extraction Using Neighborhood Knowledge Based on Word Embeddings (Arxiv21)](https://arxiv.org/abs/2111.07198)
 - [MDERank: A Masked Document Embedding Rank Approach for Unsupervised Keyphrase Extraction (ACL22)](https://aclanthology.org/2022.findings-acl.34.pdf)
 - [PromptRank: Unsupervised Keyphrase Extraction Using Prompt (ACL23)](https://arxiv.org/pdf/2305.04490.pdf)
+- [EntropyRank: Unsupervised Keyphrase Extraction via Side-Information Optimization for Language Model-based Text Compression (Arxiv23)](https://arxiv.org/pdf/2308.13399.pdf)
 
 
 
@@ -70,7 +71,7 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Joint Keyphrase Chunking and SalienceRanking with BERT (Arxiv20)](https://openreview.net/forum?id=duSg8EGOlX3)
 - [Importance Estimation from Multiple Perspectives for Keyphrase Extraction (EMNLP21)](https://aclanthology.org/2021.emnlp-main.215.pdf)
 - [Hyperbolic Relevance Matching for Neural Keyphrase Extraction (NAACL22)](https://aclanthology.org/2022.naacl-main.419)
-
+- [Enhancing Phrase Representation by Information Bottleneck Guided Text Diffusion Process for Keyphrase Extraction (Arxiv23)](https://arxiv.org/pdf/2308.08739.pdf)
 	
 ## Multi-Document Extraction
 
