@@ -124,6 +124,8 @@ We strongly encourage the researchers that want to promote their fantastic work 
 - [Diverse Keyphrase Generation with Neural Unlikelihood Training (COLING20)](https://aclanthology.org/2020.coling-main.462/)
 - [Keyphrase Generation with Fine-Grained Evaluation-Guided Reinforcement Learning (EMNLP21)](https://aclanthology.org/2021.findings-emnlp.45.pdf)
 - [Keyphrase Generation via Soft and Hard Semantic Corrections (EMNLP22)](https://aclanthology.org/2022.emnlp-main.529.pdf)
+- [Rethinking Model Selection and Decoding for Keyphrase Generation with Pre-trained Sequence-to-Sequence Models (EMNLP23)](https://arxiv.org/pdf/2310.06374)
+- [SimCKP: Simple Contrastive Learning of Keyphrase Representations (EMNLP23)](https://arxiv.org/pdf/2310.08221)
 
 ## Absent Keyphrase Generation
 - [Fast and Constrained Absent Keyphrase Generation by Prompt-Based Learning (AAAI2022)](https://ojs.aaai.org/index.php/AAAI/article/view/21402)
